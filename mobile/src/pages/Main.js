@@ -80,7 +80,7 @@ function Main({ navigation }) {
                             navigation.navigate('Profile', { github_username: dev.github_username })
                         }}>
                             <View style={styles.callout}>
-                                <Text style={styles.devName}>{dev.name}s</Text>
+                                <Text style={styles.devName}>{dev.name}</Text>
                                 <Text style={styles.devBio}>{dev.bio}</Text>
                                 <Text style={styles.devSkills}>{dev.skills.join(', ')}</Text>
                             </View>
