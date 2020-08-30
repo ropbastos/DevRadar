@@ -13,6 +13,9 @@ Make sure to set it to run on the correct ip: change 'baseURL' on src/services/a
 On every folder run:
 ```yarn install; yarn add axios; yarn start```
 
+On ./backend:
+```yarn add mongoose```
+
 # Dependencies
 *Expo* app on your phone to run the app.
 
